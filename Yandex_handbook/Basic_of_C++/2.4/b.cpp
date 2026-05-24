@@ -11,7 +11,7 @@ int main(){
     string res;
     res += s[0];
 
-    for(int i = 1; i != s.size(); i++){
+    for(size_t i = 1; i != s.size(); i++){
 
         char c = s[i];
         switch(c){
